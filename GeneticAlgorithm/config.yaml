@@ -1,0 +1,288 @@
+XGBoostTuning:
+ Variable_1:
+            Name: learning_rate
+            Max: 1
+            Min: 0.0001
+            Seed: 4
+            Option: higher
+            Extra: abs
+ Variable_2:
+            Name: min_child_weight
+            Max: 5
+            Min: 0.001
+            Seed: 3
+            Option: higher  
+
+
+Test:
+ Variable_1:
+            Name: pt_lep1
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+            Extra: abs
+ Variable_2:
+            Name: pt_lep2
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+ Variable_3:
+            Name: pt_lep3
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+ Variable_4:
+            Name: pt_jet1
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+ Variable_5:
+            Name: pt_jet2
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+ Variable_6:
+            Name: pt_jet3
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+ #Variable_7:
+ #           Name: m_met
+ #           Max: 100
+ #           Min: 10
+ #           Seed: 2
+ #           Option: higher            
+
+LeptonsCut:
+ Variable_1:
+            Name: pt_lep1
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+            Extra: abs
+ Variable_2:
+            Name: pt_lep2
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+ Variable_3:
+            Name: pt_lep3
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+
+ Variable_4:
+            Name: eta_lep1
+            Max: 2.5
+            Min: 0.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_5:
+            Name: eta_lep2
+            Max: 2.5
+            Min: 0.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_6:
+            Name: eta_lep3
+            Max: 2.5
+            Min: 0.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_7:
+            Name: phi_lep1
+            Max: 3.15
+            Min: 2.0
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_8:
+            Name: phi_lep2
+            Max: 3.15
+            Min: 2.0
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_9:
+            Name: phi_lep3
+            Max: 3.15
+            Min: 2.0
+            Seed: 2
+            Option: lower
+            Extra: abs
+# Variable_10:
+#            Name: E_lep1
+#            Max: 400
+#            Min: 0
+#            Seed: 2
+#            Option: lower
+# Variable_11:
+#            Name: E_lep2
+#            Max: 400
+#            Min: 0
+#            Seed: 2
+#            Option: lower
+# Variable_12:
+#            Name: E_lep3
+#            Max: 400
+#            Min: 0
+#            Seed: 2
+#            Option: lower 
+LeptonsJetsCut:
+ Variable_1:
+            Name: pt_lep1
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+            Extra: abs
+ Variable_2:
+            Name: pt_lep2
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+ Variable_3:
+            Name: pt_lep3
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+
+ Variable_4:
+            Name: eta_lep1
+            Max: 6
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_5:
+            Name: eta_lep2
+            Max: 6
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_6:
+            Name: eta_lep3
+            Max: 6
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_7:
+            Name: pt_jet1
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+ Variable_8:
+            Name: pt_jet2
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+ Variable_9:
+            Name: pt_jet3
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+# Variable_10:
+#            Name: E_jet1
+#            Max: 800
+#            Min: 10
+#            Seed: 2
+#            Option: lower
+# Variable_11:
+#            Name: E_jet2
+#            Max: 500
+#            Min: 10
+#            Seed: 2
+#            Option: lower
+# Variable_12:
+#            Name: E_jet3
+#            Max: 500
+#            Min: 10
+#            Seed: 2
+#            Option: lower            
+ Variable_13:
+            Name: eta_jet1
+            Max: 4.5
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_14:
+            Name: eta_jet2
+            Max: 4.5
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_15:
+            Name: eta_jet3
+            Max: 4.5
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+GeneralMVA:
+ Variable_1:
+            Name: m_met
+ Variable_2:
+            Name: m_njets
+ Variable_3:
+            Name: m_nbjets
+ Variable_4:
+            Name: m_sumet
+ Variable_5:
+            Name: trilepton_mass_SS
+ Variable_6:
+            Name: trilepton_DeltaR_SS
+ Variable_7:
+            Name: trilepton_mass_OS_1
+ Variable_8:
+            Name: trilepton_DeltaR_OS_1
+# Variable_9:
+#            Name: trilepton_mass_Bjet_l1
+ Variable_10:
+            Name: trilepton_mass_OS_2
+ Variable_11:
+            Name: trilepton_DeltaR_OS_2
+# Variable_12:
+#            Name: trilepton_mass_Bjet_l2
+ Variable_13:
+           Name: MaxEtaJetNoBjet
+ Variable_14:
+           Name: LeptonChargeSum
+ Variable_15:
+           Name: DeltaEtaForwardLjetLeadingBjet
+ Variable_16:
+           Name: DeltaEtaForwardLjetClosestLepto
+ Variable_17:
+           Name: DeltaRMin
+ Variable_18:
+           Name: DelataPhiSS
+ Variable_19:
+           Name: PtLeptonMin
+ Variable_20:
+           Name: trilepton_DeltaR_Bjet_l1
+ Variable_21:
+           Name: trilepton_DeltaR_Bjet_l2
+
+Options:
+ higher: '>'
+ lower: <

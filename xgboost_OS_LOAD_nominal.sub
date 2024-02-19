@@ -1,0 +1,16 @@
+universe = vanilla
+
+
+executable          = sendJob_dilepOStau_LOAD.sh
+arguments           = $(Cluster) $(Process)
+
+log                 = condoroutputs/log/$(Cluster).$(Process).log
+output              = condoroutputs/OS_output/$(Cluster).$(Process).out
+error               = condoroutputs/OS_error/$(Cluster).$(process).err
+
+
+request_Cpus        = 4
+request_Gpus        = 1
+request_Memory      = 4000
+
+queue 1 

@@ -1,0 +1,1405 @@
+XGBoostTuning:
+ Variable_1:
+            Name: learning_rate
+            Max: 5
+            Min: 0.0001
+            Seed: 6
+            Option: higher
+            Extra: abs
+            Type: 'Log'
+ Variable_2:
+            Name: min_child_weight
+            Max: 5
+            Min: 0.01
+            Seed: 1
+            Option: higher
+            Type: 'Log'
+#Variable_3:
+#           Name: max_delta_step
+#           Max: 10
+#           Min: 0.001
+#           Seed: 3
+#           Option: higher
+#Variable_4:
+#           Name: min_split_loss
+#           Max: 10
+#           Min: 0.001
+#           Seed: 3
+#           Option: higher
+ Variable_5:
+            Name: scale_pos_weight
+            Max: 500
+            Min: 60
+            Seed: 2
+            Option: higher
+            #Type: 'Log'
+
+
+GeneralMVA:
+ Variable_1:
+            Name: had_tau_pt
+ Variable_2:
+            Name: DeltaRLeadingLjetLeadingBjet
+ Variable_3:
+            Name: pt_jet2
+ Variable_4:
+            Name: HvisMass
+ Variable_5:
+            Name: type_lep3
+ Variable_6:
+            Name: pt_jf
+ Variable_7:
+            Name: DeltaEtaForwardLjetLeadingBjet
+ Variable_8:
+            Name: type_lep1
+ Variable_9:
+            Name: deltaR_lepHiggs_b
+ Variable_10:
+            Name: m_met
+ Variable_11:
+            Name: MMC_out_3
+ Variable_12:
+            Name: LeptonChargeSum
+ Variable_13:
+            Name: MMC_out_2
+ Variable_14:
+            Name: deltaR_lepHiggs_spectatorJet
+ Variable_15:
+            Name: deltaR_lepTop_lepHiggs
+ Variable_16:
+            Name: deltaEta_lepHiggs_b
+ Variable_17:
+            Name: eta_jf
+ Variable_18:
+            Name: pt_jet3
+ Variable_19:
+            Name: pt_jet1
+ Variable_21:
+            Name: deltaPhi_lepHiggs_spectatorJet
+ Variable_22:
+            Name: MMC_out_1
+ Variable_23:
+            Name: deltaRTau
+ Variable_24:
+            Name: DeltaPhiLeadingLjetLeadingBjet
+ Variable_26:
+            Name: deltaEta_lepTop_lepHiggs
+ Variable_27:
+            Name: deltaEta_lepTop_tau
+ Variable_28:
+            Name: deltaEta_lepHiggs_spectatorJet
+ Variable_29:
+            Name: DeltaRMin
+ Variable_30:
+            Name: m_njets
+ Variable_31:
+            Name: lep_Higgs_pt
+ Variable_33:
+            Name: DeltaEtaLeadingLjetClosestLepton
+ Variable_34:
+            Name: DeltaEtaLeadingLjetLeadingBjet
+ Variable_35:
+            Name: eta_jet1
+ Variable_36:
+            Name: deltaR_lepTop_spectatorJet
+ Variable_37:
+            Name: m_nNoBjets
+ Variable_38:
+            Name: TvisMass
+ Variable_39:
+            Name: btagged_jet1
+ Variable_40:
+            Name: HvisEta
+ Variable_42:
+            Name: deltaEta_lepHiggs_tau
+ Variable_43:
+            Name: DeltaPhiForwardLjetClosestLepton
+ Variable_44:
+            Name: DeltaEtaSS
+ Variable_45:
+            Name: pt_b
+ Variable_46:
+            Name: DeltaEtaSubLeadingLeptonClosestLjet
+ Variable_47:
+            Name: btagbin_jet1
+ Variable_48:
+            Name: HT_all
+ Variable_49:
+            Name: mt_lepTop_tau
+ Variable_51:
+            Name: HvisPt
+ Variable_52:
+            Name: eta_b
+ Variable_53:
+            Name: m_inv_bjet_spectjet
+ Variable_54:
+            Name: m_pt_spectjet
+ Variable_55:
+            Name: DeltaEtaMaxEtaLjetClosestLepton
+ Variable_56:
+            Name: m_E_spectjet
+ Variable_57:
+            Name: btagbin_jet2
+ Variable_58:
+            Name: E_pt
+ Variable_59:
+            Name: deltaPhiTau
+ Variable_60:
+            Name: DeltaRSpectatorjetLeadingBjet
+ Variable_61:
+            Name: DeltaEtaForwardLjetClosestLepton
+ Variable_62:
+            Name: m_sumet
+ Variable_63:
+            Name: m_nCentraljets
+ Variable_65:
+            Name: deltaPhi_lepHiggs_tau
+ Variable_67:
+            Name: DeltaPhiMaxEtaLjetLeadingBjet
+ Variable_69:
+            Name: deltaPhi_lepTop_lepHiggs
+ Variable_71:
+            Name: phi_b
+# Variable_72:
+#            Name: phi_jf
+ Variable_73:
+            Name: deltaEta_lepTop_spectatorJet
+ Variable_76:
+            Name: PtLeptonMin
+ Variable_77:
+            Name: deltaR_lepHiggs_tau
+ Variable_78:
+            Name: HT
+ Variable_79:
+            Name: HvisPhi
+ Variable_80:
+            Name: LeptonChargeMult
+ Variable_81:
+            Name: btagbin_jet3
+ Variable_82:
+            Name: btagbin_jet4
+ Variable_83:
+            Name: btagbin_jet5
+ Variable_84:
+            Name: btagbin_jet6
+ Variable_86:
+            Name: eta_lep1
+ Variable_87:
+            Name: eta_lep2
+ Variable_870:
+            Name: pt_lepTop_tau
+ Variable_88:
+            Name: pt_lepHiggs_b
+ Variable_89:
+            Name: mt_lepTop_b
+ Variable_90:
+            Name: mt_lepHiggs_b
+ Variable_92:
+            Name: mt_lepHiggs_tau
+ Variable_96:
+            Name: deltaR_lepTop_tau
+ Variable_1a:
+            Name: deltaR_lepHiggs_leadingLjet
+ Variable_1b:
+            Name: deltaEta_lepHiggs_leadingLjet
+ Variable_1c:
+            Name: deltaR_lepTop_leadingLjet
+ Variable_1d:
+            Name: deltaEta_lepTop_leadingLjet
+ Variable_1e:
+            Name: deltaR_lepTop_b
+ Variable_1f:
+           Name: deltaEta_lepTop_b
+ Variable_1g:
+            Name: m_Hvis_opt1
+ Variable_1h:
+            Name: m_Hvis_opt2
+ Variable_1i:
+            Name: pt_Hvis_opt1
+ Variable_1j:
+            Name: pt_Hvis_opt2
+ Variable_1k:
+            Name: m_Tpred_opt1
+ Variable_1l:
+            Name: m_Tpred_opt2
+ Variable_1m:
+            Name: pt_Tpred_opt1
+ Variable_1n:
+            Name: pt_Tpred_opt2
+ Variable_1o:
+            Name: eta_Tpred_opt1
+ Variable_1p:
+            Name: eta_Tpred_opt2
+ Variable_1q:
+            Name: eta_Hvis_opt1
+ Variable_100:
+            Name: eta_Hvis_opt2
+ Variable_101:
+            Name: m_lepTop_tau
+ Variable_102:
+            Name: m_lepHiggs_b
+ Variable_103:
+            Name: lep_Top_pt
+ Variable_104:
+            Name: lep_Top_eta
+ Variable_105:
+            Name: lep_Top_phi
+ Variable_106:
+            Name: lep_Top_charge
+ Variable_107:
+            Name: lep_Top_E
+ Variable_108:
+            Name: lep_Higgs_eta
+ Variable_109:
+            Name: lep_Higgs_phi
+ Variable_110:
+            Name: lep_Higgs_charge
+ Variable_111:
+            Name: lep_Higgs_E
+ Variable_112:
+            Name: had_tau_eta
+ Variable_113:
+            Name: had_tau_phi
+ Variable_114:
+            Name: had_tau_E
+ Variable_115:
+            Name: DeltaEtaForwardLjetSubLeadingBjet
+ Variable_116:
+            Name: OSSF_LepHad
+ Variable_117:
+            Name: OSDF_LepHad
+ Variable_118:
+            Name: M_b_jf
+ Variable_119:
+            Name: lep_top_higgs_mass
+# Variable_120:
+#            Name: 
+# Variable_121:
+#            Name:
+# Variable_122:
+#            Name:
+# Variable_123:
+#            Name:
+
+ShortMVAtH:
+# Variable_1:
+#            Name: eta_Tpred_opt1
+#            Label_name: $\eta^{opt1}(t_{pred}#$
+# Variable_2:
+#            Name: m_Hvis_opt2
+#            Label_name: $m^{opt2}(H_{vis})$
+# Variable_3:
+#            Name: pt_Hvis_opt1
+#            Label_name: $p_{T}^{opt1}(H_{vis})$
+ Variable_4:
+            Name: OSSF_LepHad
+            Label_name: Same flavour leptons
+# Variable_5:
+#            Name: eta_Tpred_opt2
+#            Label_name: $\eta^{opt2}(t_{pred})$
+# Variable_6:
+#            Name: m_Tpred_opt1
+#            Label_name: $m^{opt1}(T_{pred})$
+# Variable_7:
+#            Name: pt_Tpred_opt2
+#            Label_name: $p_{T}^{opt2}(t_{pred})$
+ Variable_8:
+            Name: had_tau_pt
+            Label_name: $p_{T}(\tau_{had})$
+ Variable_9:
+            Name: m_met
+            Label_name: $E_{T}^{miss}$
+ Variable_10:
+            Name: M_b_jf
+            Label_name: $m$($b$-tagged jet, forward jet)
+ Variable_11:
+            Name: MMC_out_3
+            Label_name: Missing Mass Calculator 3
+ Variable_12:
+            Name: lep_top_higgs_mass
+            Label_name: $ m(\ell_{Higgs} + \ell_{top})$
+ Variable_13:
+            Name: HvisMass
+            Label_name: Visible mass (Higgs boson)
+ Variable_14:
+            Name: btagbin_jet4
+            Label_name: DL1R calibrated score of fourth $b$-tagged jet
+# Variable_15:
+#            Name: MMC_out_1
+#            Label_name: Missing Mass Calculator 1
+# Variable_16:
+#            Name: eta_Hvis_opt1
+#            Label_name: $\eta^{opt1}(H_{vis})$
+ Variable_17:
+            Name: deltaR_lepHiggs_tau
+            Label_name: $\Delta R(\ell_{Higgs},\tau_{had})$
+# Variable_18:
+#            Name: pt_Tpred_opt1
+#            Label_name: $p_{T}^{opt1}(t_{pred})$
+ Variable_19:
+            Name: HT_all
+            Label_name: $H_{T}$
+ Variable_20:
+            Name: DeltaEtaForwardLjetClosestLepton
+            Label_name: $\Delta \eta$(Forward light jet, closest lepton) 
+ #Variable_21:
+ #           Name: pt_jf
+ #           Label_name: $p_{T}$ (spectator-jet)
+ Variable_23:
+            Name: DeltaPhiLeadingLjetLeadingBjet
+            Label_name: $\Delta\phi$(leading non-$b$-tagged jet, leading $b$-tagged jet)
+ Variable_24:
+            Name: deltaR_lepHiggs_spectatorJet
+            Label_name: $\Delta R(\ell_{Higgs}$, spectator jet)
+ Variable_25:
+            Name: deltaEta_lepHiggs_tau
+            Label_name: $\Delta\eta(\ell_{Higgs}, \tau_{had})$
+
+
+
+LongMVAtH:
+ Variable_1:
+            Name: m_Hvis_opt2
+            Label_name: $m^{opt2}(H_{vis})$
+ Variable_2:
+            Name: eta_Tpred_opt1
+            Label_name: $\eta^{opt1}(t_{pred})$
+ Variable_3:
+            Name: pt_Tpred_opt2
+            Label_name: $p_{T}^{opt2}(t_{pred})$
+ Variable_4:
+            Name: eta_Tpred_opt2
+            Label_name: $\eta^{opt2}(t_{pred})$
+ Variable_5:
+            Name: pt_Hvis_opt2
+            Label_name: $p_{T}^{opt2}(H_{vis})$
+ Variable_6:
+            Name: eta_Hvis_opt1
+            Label_name: $\eta^{opt1}(H_{vis})$
+ Variable_7:
+            Name: had_tau_pt
+            Label_name: $p_{T}(\tau_{had})$
+ Variable_8:
+            Name: HT_all
+            Label_name: $H_{T}^{all}$ 
+ Variable_9:
+            Name: OSSF_LepHad
+            Label_name: OS-SF label
+ Variable_10:
+            Name: deltaR_lepHiggs_tau
+            Label_name: $\Delta R(\ell_{Higgs},\tau_{had})$
+ Variable_11:
+            Name: btagbin_jet4
+            Label_name: DL1R calibrated score of b-jet 1
+ Variable_12:
+            Name: MMC_out_1
+            Label_name: Missing Mass Calculator 1
+ Variable_13:
+            Name: pt_jet2
+            Label_name: $p_{T}$ (jet2)
+ Variable_14:
+            Name: pt_jf
+            Label_name: $p_{T}$ (spectator-jet)
+ Variable_15:
+            Name: DeltaRSpectatorjetLeadingBjet
+            Label_name: $\Delta R$(spectator jet, leading $b$-tagged jet)
+ Variable_16:
+            Name: DeltaRMin
+            Label_name: $\Delta R_{min}(\ell_{Higgs}, \ell_{top}, \tau_{had})$
+ Variable_17:
+            Name: M_b_jf
+            #Label_name: 
+ Variable_18:
+            Name: m_met
+            #Label_name:
+ Variable_19:
+            Name: type_lep3
+            #Label_name:
+ Variable_20:
+            Name: lep_top_higgs_mass
+            #Label_name:
+ Variable_21:
+            Name: DeltaEtaForwardLjetClosestLepton
+            #Label_name:
+ #Variable_22:
+ #           Name: 
+            #Label_name:
+ Variable_23:
+            Name: HvisMass
+            #Label_name:
+ Variable_24:
+            Name: MMC_out_3
+            Label_name: Missing Mass Calculator 3
+ Variable_25:
+            Name: had_tau_eta
+            #Label_name:
+ Variable_26:
+            Name: m_lepHiggs_b
+            Label_name: $ m(\ell_{Higgs} + $b$-tagged jet)$
+ Variable_27:
+            Name: deltaEta_lepHiggs_tau
+            #Label_name:
+ Variable_28:
+            Name: m_nNoBjets
+ Variable_29:
+            Name: deltaEta_lepHiggs_b
+            Label_name: $\Delta\eta(\ell_{Higgs}, $b$-tagged jet)$
+ Variable_30:
+            Name: deltaR_lepHiggs_spectatorJet
+            Label_name: $\Delta R(\ell_{Higgs}$, spectator jet)
+ Variable_31:
+            Name: MMC_out_2
+            Label_name: Missing Mass Calculator 2
+ Variable_33:
+            Name: btagbin_jet1
+            #Label_name:
+ Variable_34: 
+            Name: DeltaPhiLeadingLjetLeadingBjet
+ Variable_35: 
+            Name: deltaR_lepTop_b
+ Variable_36: 
+            Name: type_lep1
+ Variable_37: 
+            Name: eta_jf
+ Variable_38: 
+            Name: deltaPhi_lepHiggs_spectatorJet
+            Label_name: $\Delta\phi(\ell_{Higgs}$, spectator jet)
+ Variable_39: 
+            Name: m_njets
+ Variable_40:
+            Name: deltaEta_lepTop_tau 
+            Label_name: $\Delta\eta(\ell_{top}, \tau_{had})$
+ Variable_41: 
+            Name: pt_b
+ Variable_42: 
+            Name: mt_lepTop_b
+ Variable_43: 
+            Name: lep_Higgs_eta
+ Variable_44: 
+            Name: pt_jet1
+ Variable_45: 
+            Name: deltaR_lepHiggs_b
+ Variable_46: 
+            Name: deltaEta_lepHiggs_leadingLjet
+ Variable_47: 
+            Name: lep_Higgs_pt
+ #Variable_49: 
+ #           Name: m_nCentraljet
+ Variable_50: 
+            Name: deltaR_lepTop_lepHiggs
+            Label_name: $\Delta R(\ell_{top},\ell_{Higgs})$
+ Variable_51: 
+            Name: deltaPhiTau
+ Variable_52:
+            Name: m_nfjets
+            Label_name: Multiplicity (forward jets)
+ Variable_53:
+            Name: m_inv_bjet_spectjet
+            Label_name: $m$($b$-tagged jet, spectator jet)
+ Variable_54:
+            Name: DeltaEtaForwardLjetLeadingBjet
+            Label_name: $\Delta\eta$(forward non-$b$-tagged jet, leading $b$-tagged jet)
+ Variable_55:
+            Name: deltaEta_lepHiggs_spectatorJet
+            Label_name: $\Delta\eta(\ell_{Higgs}$, spectator jet)
+ Variable_56:
+            Name: PtLeptonMin
+            Label_name: $p_{T}^{min}$(lepton)
+ Variable_57:
+            Name: deltaR_lepTop_leadingLjet
+            Label_name: $\Delta R(\ell_{top}$, leading non-$b$-tagged jet)
+ Variable_58:
+            Name: eta_jet1
+            Label_name: $\eta$(leading jet)
+
+
+## La de la tesis
+baseline_tHq: 
+ Variable_01:
+            Name: had_tau_pt
+            Label_name: $p_{T}(\tau_{had})$
+ Variable_02:
+            Name: m_nfjets
+            Label_name: Multiplicity (forward jets)
+ Variable_03:
+            Name: type_lep1
+            Label_name: Type (lep 1)
+ Variable_04:
+            Name: MMC_out_1
+            Label_name: Missing Mass Calculator 1
+ Variable_05:
+            Name: type_lep3
+            Label_name: Type (lep 3)
+ Variable_06:
+            Name: m_inv_bjet_spectjet
+            Label_name: $m$($b$-tagged jet, spectator jet)
+ Variable_07:
+            Name: deltaR_lepHiggs_tau
+            Label_name: $\Delta R(\ell_{Higgs},\tau_{had})$
+ Variable_08:
+            Name: deltaR_lepHiggs_spectatorJet
+            Label_name: $\Delta R(\ell_{Higgs}$, spectator jet)
+ Variable_09:
+            Name: deltaR_lepTop_lepHiggs
+            Label_name: $\Delta R(\ell_{top},\ell_{Higgs})$
+ Variable_10:
+            Name: DeltaEtaForwardLjetLeadingBjet
+            Label_name: $\Delta\eta$(forward non-$b$-tagged jet, leading $b$-tagged jet)
+ Variable_11:
+            Name: eta_jet1
+            Label_name: $\eta$(leading jet)
+ Variable_12:
+            Name: m_lepHiggs_b
+            Label_name: $ m(\ell_{Higgs} + $b$-tagged jet)$
+ Variable_13:
+            Name: deltaEta_lepHiggs_spectatorJet
+            Label_name: $\Delta\eta(\ell_{Higgs}$, spectator jet)
+ Variable_14:
+            Name: deltaEta_lepHiggs_b
+            Label_name: $\Delta\eta(\ell_{Higgs}, $b$-tagged jet)$
+ Variable_15:
+            Name: PtLeptonMin
+            Label_name: $p_{T}^{min}$(lepton)
+ Variable_16:
+            Name: deltaR_lepTop_leadingLjet
+            Label_name: $\Delta R(\ell_{top}$, leading non-$b$-tagged jet)
+ Variable_17:
+            Name: DeltaRMin
+            Label_name: $\Delta R_{min}(\ell_{Higgs}, \ell_{top}, \tau_{had})$
+ Variable_18:
+            Name: deltaEta_lepHiggs_tau
+            Label_name: $\Delta\eta(\ell_{Higgs}, \tau_{had})$
+ Variable_19:
+            Name: deltaEta_lepTop_tau #not very discriminant
+            Label_name: $\Delta\eta(\ell_{top}, \tau_{had})$
+ Variable_20:
+            Name: deltaPhi_lepHiggs_spectatorJet
+            Label_name: $\Delta\phi(\ell_{Higgs}$, spectator jet)
+
+
+## La de la tesis
+ShortMVAttbar:
+ Variable_01:
+            Name: lep_top_higgs_mass
+            Label_name: $ m(\ell_{Higgs} + \ell_{top})$
+ Variable_02:
+            Name: m_met
+            Label_name: $E_{T}^{miss}$
+ Variable_03:
+            Name: pt_b
+            Label_name: $p_{T}$($b$-tagged jet)
+ Variable_04:
+            Name: m_lepHiggs_b
+            Label_name:  m($\ell_{Higgs}$ + leading $b$-tagged jet)
+ Variable_05:
+            Name: TvisMass
+            Label_name: Visible mass (top quark)
+ Variable_06:
+            Name: btagbin_jet1
+            Label_name: DL1R calibrated score of leading $b$-tagged jet
+ Variable_07:
+            Name: pt_jet3
+            Label_name: $p_{T}$ (jet3)
+ Variable_08:
+            Name: btagbin_jet2
+            Label_name: DL1R calibrated score of subleading $b$-tagged jet
+ Variable_09:
+            Name: DeltaEtaForwardLjetSubLeadingBjet
+            Label_name: $\Delta \eta ($forward non-$b$-tagged jet, subleading $b$-tagged jet$)$
+ Variable_10:
+            Name: deltaEta_lepTop_lepHiggs
+            Label_name: $\Delta \eta (\ell_{top},\ell_{Higgs})$
+ Variable_11:
+            Name: DeltaEtaLeadingLeptonClosestBjet # Very good to simultaneusly separate tHq and Zjets
+            Label_name: $\Delta\eta$(leading lepton, closest $b$-tagged jet)
+
+ShortMVAtHq:
+ Variable_1:
+            Name: deltaEta_lepHiggs_b
+            Label_name: $\Delta\eta(\ell_{Higgs}, $b$-tagged jet)$
+# Variable_2:
+#            Name: deltaEta_lepHiggs_leadingLjet # Removed because of correlations
+#            Label_name: $\Delta\eta(\ell_{Higgs}$, leading non-$b$-tagged jet)
+ Variable_3:
+            Name: deltaEta_lepHiggs_spectatorJet
+            Label_name: $\Delta\eta(\ell_{Higgs}$, spectator jet)
+ Variable_4:
+            Name: deltaEta_lepHiggs_tau
+            Label_name: $\Delta\eta(\ell_{Higgs}, \tau_{had})$
+# Variable_5:
+#            Name: deltaEta_lepTop_leadingLjet # Removed because of correlations
+#            Label_name: $\Delta\eta(\ell_{top}$, leading non-$b$-tagged jet)
+# Variable_6:
+#            Name: deltaEta_lepTop_spectatorJet
+#            Label_name: $\Delta\eta(\ell_{Top}$, spectator-jet)
+ Variable_7:
+            Name: deltaEta_lepTop_tau #not very discriminant
+            Label_name: $\Delta\eta(\ell_{top}, \tau_{had})$
+ Variable_8:
+            Name: DeltaEtaForwardLjetLeadingBjet
+            Label_name: $\Delta\eta$(forward non-$b$-tagged jet, leading $b$-tagged jet)
+# Variable_9:
+#            Name: DeltaEtaLeadingLeptonClosestBjet
+#            Label_name: $\Delta\eta$(leading lepton, closest $b$-tagged jet)
+ #Variable_10:
+ #           Name: DeltaEtaLeadingLjetClosestLepton #Removed because is presents a lot of correlations
+ #           Label_name: $\Delta\eta$(leading non-$b$-tagged jet, closest lepton)
+ #Variable_11:
+ #           Name: DeltaEtaLeadingLjetLeadingBjet  # Removed because of correlations
+ #           Label_name: $\Delta\eta$(non-$b$-tagged jet, leading $b$-tagged jet)
+# Variable_12:
+#            Name: DeltaEtaSpectatorjetLeadingBjet # Removed because of correlations
+#            Label_name: $\Delta\eta$(Spectator jet, leading $b$-tagged jet)
+# Variable_13:
+#            Name: deltaPhi_lepHiggs_leadingLjet  # Removed because of correlations
+#            Label_name: $\Delta\phi(\ell_{Higgs}$, leading non-$b$-tagged jet)
+ Variable_14:
+            Name: deltaPhi_lepHiggs_spectatorJet
+            Label_name: $\Delta\phi(\ell_{Higgs}$, spectator jet)
+# Variable_15:
+#            Name: deltaPhi_lepHiggs_tau # Removed because of feature importance
+#            Label_name: $\Delta\phi(\ell_{Higgs}, \tau_{had})$
+# Variable_16:
+#            Name: deltaPhi_lepTop_lepHiggs # Removed because of feature importance
+#            Label_name: $\Delta\phi(\ell_{Higgs}, \ell_{top})$
+# Variable_17:
+#            Name: DeltaPhiForwardLjetClosestLepton
+#            Label_name: $\Delta\phi$(forward non-$b$-tagged jet, closest lepton)
+# Variable_18:
+#            Name: DeltaPhiLeadingLjetLeadingBjet  # Removed because of correlations
+#            Label_name: $\Delta\phi$(leading non-$b$-tagged jet, leading $b$-tagged jet)
+# Variable_19:
+#            Name: DeltaPhiSpectatorjetLeadingBjet    # Removed because of correlations
+#            Label_name: $\Delta\phi$(Spectator jet, leading $b$-tagged jet)
+# Variable_20:
+#            Name: deltaR_lepHiggs_b #This focuses on ttbar vs tHq . Removed becuase of feature importance
+#            Label_name: $\Delta R(\ell_{Higgs}, $b$-tagged jet)$
+# Variable_21:
+#            Name: deltaR_lepHiggs_leadingLjet # Removed because of correlations
+#            Label_name: $\Delta R(\ell_{Higgs}$, leading non-$b$-tagged jet)
+ Variable_22:
+            Name: deltaR_lepHiggs_spectatorJet
+            Label_name: $\Delta R(\ell_{Higgs}$, spectator jet)
+ Variable_23:
+            Name: deltaR_lepHiggs_tau
+            Label_name: $\Delta R(\ell_{Higgs},\tau_{had})$
+ Variable_24:
+            Name: deltaR_lepTop_leadingLjet
+            Label_name: $\Delta R(\ell_{top}$, leading non-$b$-tagged jet)
+ Variable_25:
+            Name: deltaR_lepTop_lepHiggs
+            Label_name: $\Delta R(\ell_{top},\ell_{Higgs})$
+# Variable_26:
+#            Name: deltaR_lepTop_spectatorJet # Removed because Feature importance
+#            Label_name: $\Delta R(\ell_{top}$, spectator jet)
+# Variable_27:
+#            Name: DeltaRForwardLjetClosestLepton  # Removed because of correlations
+#            Label_name: $\Delta R$(forward non-$b$-tagged jet, closest lepton)
+# Variable_28:
+#            Name: DeltaRLeadingLjetClosestLepton  # Removed because of correlations
+#            Label_name: $\Delta R$(leading non-$b$-tagged jet, closest lepton)
+# Variable_29:
+#            Name: DeltaRLeadingLjetLeadingBjet  # Removed because of correlations
+#            Label_name: $\Delta R$(leading non-$b$-tagged jet, leading $b$-tagged jet)
+# Variable_30:
+#            Name: DeltaRMaxEtaLjetClosestLepton # Removed because of correlations
+#            Label_name: $\Delta R_{max}$(light jet, closest light lepton)
+# Variable_31:
+#            Name: DeltaRMaxEtaLjetLeadingBjet # Removed because of correlations
+#            Label_name: DeltaRMaxEtaLjetLeadingBjet #$\DeltaR_{max}$
+ Variable_32:
+            Name: DeltaRMin
+            Label_name: $\Delta R_{min}(\ell_{Higgs}, \ell_{top}, \tau_{had})$ 
+# Variable_33:
+#            Name: DeltaRSpectatorjetLeadingBjet # Removed because of correlations
+#            Label_name: $\Delta R$(spectator jet, leading $b$-tagged jet)
+ Variable_34:
+            Name: eta_jet1
+            Label_name: $\eta$(leading jet)
+# Variable_35:
+#            Name: eta_jf
+#            Label_name: $\eta$(forward jet)
+ Variable_36:
+            Name: had_tau_pt
+            Label_name: $p_{t}(\tau_{had})$
+ Variable_37:
+            Name: m_inv_bjet_spectjet
+            Label_name: $m$($b$-tagged jet, spectator jet)
+ Variable_38:
+            Name: m_lepHiggs_b
+            Label_name: $m(\ell_{Higgs},$b$-tagged jet)$
+# Variable_39:
+#            Name: m_lepTop_tau  # Removed because of feature importance
+#            Label_name: $m(\ell_{top)},\tau_{had})$         
+ Variable_41:
+            Name: m_nfjets
+            Label_name: Multiplicity (forward jets)          
+ Variable_42:
+            Name: MMC_out_1
+            Label_name: Missing Mass Calculator 1
+# Variable_43:
+#            Name: MMC_out_2
+#            Label_name: Missing Mass Calculator 2          
+# Variable_44:
+#            Name: MMC_out_3
+#            Label_name: Missing Mass Calculator 3
+ Variable_45:
+            Name: PtLeptonMin
+            Label_name: $p_{T}^{min}$(lepton)      
+ Variable_46:
+            Name: type_lep1
+            Label_name: Type (lep 1)
+ Variable_47:
+            Name: type_lep3
+            Label_name: Type (lep 3)
+            
+
+ShortMVAttbar_large:
+ Variable_1:
+            Name: OSDF_LepHad 
+ Variable_2:
+            Name: lep_top_higgs_mass  
+ Variable_3:
+            Name: m_met  
+ Variable_4:
+            Name: pt_b  
+ Variable_5:
+            Name: btagbin_jet1 
+ Variable_6:
+            Name: TvisMass 
+ Variable_7:
+            Name: btagbin_jet2 
+ Variable_8:
+            Name: m_lepHiggs_b 
+ Variable_9:
+            Name: E_pt 
+ Variable_10:
+            Name: had_tau_pt 
+ Variable_11:
+            Name: pt_jet1 
+ Variable_12:
+            Name: pt_jet2 
+ Variable_13:
+            Name: deltaR_lepHiggs_b 
+ Variable_14:
+            Name: deltaR_lepTop_lepHiggs 
+ Variable_15:
+            Name: deltaR_lepTop_b 
+ Variable_16:
+            Name: m_sumet 
+ Variable_17:
+            Name: HT_all 
+ Variable_18:
+            Name: btagbin_jet6 
+ Variable_19:
+            Name: lep_Higgs_pt 
+ Variable_20:
+            Name: mt_lepTop_b 
+ Variable_21:
+            Name: deltaEta_lepTop_lepHiggs 
+ Variable_22:
+            Name: HT 
+ Variable_23:
+            Name: DeltaRMin 
+ Variable_24:
+            Name: m_nNoBjets 
+ Variable_25:
+            Name: HvisMass 
+ Variable_26:
+            Name: lep_Higgs_E 
+ Variable_27:
+            Name: btagbin_jet3 
+ Variable_28:
+            Name: type_lep3 
+ Variable_29:
+            Name: lep_Top_E 
+ Variable_30:
+            Name: had_tau_eta 
+ Variable_31:
+            Name: deltaR_lepHiggs_tau 
+ Variable_32:
+            Name: deltaEta_lepTop_b 
+ Variable_33:
+            Name: deltaPhi_lepTop_lepHiggs 
+ Variable_34:
+            Name: m_nCentraljets 
+ Variable_35:
+            Name: DeltaEtaLeadingLjetLeadingBjet 
+
+
+
+ShortMVAtHq_old:
+ Variable_1:
+            Name: deltaEta_lepHiggs_b
+            Label_name: $\Delta\eta(\ell_{Higgs}, b)$
+ Variable_2:
+            Name: deltaEta_lepTop_spectatorJet
+            Label_name: $\Delta \eta(\ell_{Top}, spectator-jet)$
+ Variable_3:
+            Name: DeltaEtaLeadingLjetLeadingBjet
+            Label_name: $\Delta\eta(non-bjet1, b-jet1)$
+ Variable_5:
+            Name: deltaPhi_lepTop_lepHiggs
+            Label_name: $\Delta\phi(\ell_{top}, \ell_{Higgs})$
+ Variable_6:
+            Name: deltaR_lepHiggs_b
+            Label_name: $\Delta R(\ell_{Higgs}, b)$
+ Variable_7:
+            Name: deltaR_lepTop_tau
+            Label_name: $\Delta R(\ell_{Higgs}, \tau_{had})$
+ Variable_8:
+            Name: deltaR_lepTop_lepHiggs
+            Label_name: $\Delta R(\ell_{top}, \ell_{Higgs})$
+ Variable_10:
+            Name: DeltaRLeadingLjetLeadingBjet
+            Label_name: $\Delta R(non-bjet1, b-jet1)$
+ Variable_11:
+            Name: eta_b
+            Label_name: $\eta (b$-tagged jet$)$
+ Variable_16:
+            Name: had_tau_eta
+            Label_name: $\eta(\tau_{had}_{had})$
+ Variable_17:
+            Name: had_tau_pt
+            Label_name: $p_{T}(\tau_{had})$
+ Variable_18:
+            Name: lep_Higgs_pt
+            Label_name: $p_{T}(\ell_{Higgs})$
+ Variable_19:
+            Name: lep_Top_charge
+            Label_name: charge($\ell_{Top}$)
+ Variable_20:
+            Name: btagbin_jet1
+            Label_name: DL1R calibrated score of b-jet 1
+ Variable_21:
+            Name: btagbin_jet2
+            Label_name: DL1R calibrated score of b-jet 2
+ Variable_22:
+            Name: m_lepHiggs_b
+            Label_name: m($\ell_{Higgs},b$)
+ Variable_23:
+            Name: m_nfjets
+            Label_name: Multiplicity (forward jets)
+ Variable_24:
+            Name: m_njets
+            Label_name: Multiplicity (jets)
+ Variable_26:
+            Name: pt_jf
+            Label_name: $p_{T}$ (spectator-jet)
+ Variable_27:
+            Name: type_lep3
+            Label_name: type (lep3)
+# Variable_28:
+#            Name: 
+#            Label_name:
+# Variable_29:
+#            Name:
+#            Label_name:
+# Variable_30:
+#            Name:
+#            Label_name:
+# Variable_31:
+#            Name:
+#            Label_name:
+
+
+
+
+
+           
+ShortMVAtHq_older:
+ Variable_1:
+            Name: had_tau_pt
+ Variable_2:
+            Name: m_inv_bjet_spectjet
+ Variable_3:
+            Name: type_lep3
+ Variable_4:
+            Name: HvisMass
+ Variable_5:
+            Name: pt_jf
+ Variable_6:
+            Name: DeltaEtaForwardLjetClosestLepton
+ Variable_7:    
+            Label_name: $\Delta R(\ell_{Higgs}, \tau_{had})
+            Name: MMC_out_3
+ Variable_8:
+            Name: LeptonChargeMult
+ Variable_9:
+            Name: deltaR_lepHiggs_b
+ Variable_10:
+            Name: m_met
+ Variable_11:
+            Name: deltaR_lepHiggs_spectatorJet
+ Variable_12:
+            Name: pt_jet2
+ Variable_13:
+            Name: MMC_out_2
+ Variable_14:
+            Name: DeltaRLeadingLjetLeadingBjet
+ Variable_15:
+            Name: deltaR_lepTop_lepHiggs
+ Variable_16:
+            Name: type_lep1
+ Variable_17:
+            Name: deltaEta_lepHiggs_b
+ Variable_18:
+            Name: pt_jet3
+ Variable_19:
+            Name: btagbin_jet1
+ Variable_20:
+            Name: deltaEta_lepHiggs_spectatorJet
+ Variable_21:
+            Name: deltaR_lepHiggs_leadingLjet
+ Variable_22:
+            Name: deltaEta_lepTop_lepHiggs
+ Variable_23:
+            Name: deltaPhi_lepHiggs_spectatorJet
+# Variable_24:
+#            Name:  
+# Variable_25:
+#            Name: 
+# Variable_26:
+#            Name: 
+# Variable_27:
+#            Name: 
+# Variable_28:
+#            Name: 
+# Variable_29:
+#            Name: 
+# Variable_30:
+#            Name: 
+# Variable_31:
+#            Name: 
+# Variable_32:
+#            Name: 
+# Variable_33:
+#            Name: 
+# Variable_34:
+#            Name: 
+# Variable_35:
+#            Name: 
+# Variable_36:
+#            Name: 
+# Variable_37:
+#            Name: 
+# Variable_38:
+#            Name: 
+# Variable_39:
+#            Name: 
+# Variable_40:
+#            Name: 
+ 
+ShortMVAttbar_old:
+ #Variable_1:
+ #           Name: deltaEta_lepHiggs_b #ta wapa
+ #           Label_name: $\Delta\eta(\ell_{Higgs}, $b$-tagged jet)$
+ #Variable_2:
+ #           Name: deltaEta_lepTop_b
+ #           Label_name: $\Delta \eta (\ell_{Top}, $b$-tagged jet)$
+ Variable_3:
+            Name: DeltaEtaForwardLjetSubLeadingBjet
+            Label_name: $\Delta \eta ($forward non-$b$-tagged jet, subleading $b$-tagged jet$)$
+ Variable_4:
+            Name: DeltaEtaLeadingLeptonClosestBjet # Very good to simultaneusly separate tHq and Zjets
+            Label_name: $\Delta\eta$(leading lepton, closest $b$-tagged jet)
+ #Variable_5:
+ #           Name: DeltaEtaSubLeadingLeptonClosestBjet
+ #           Label_name:  $\Delta\eta$(sub-leading lepton, closest $b$-tagged jet)
+# Variable_6:
+#            Name: DeltaPhiForwardLjetLeadingBjet
+#            Label_name:  $\Delta\phi ($forward non-$b$-tagged jet, leading $b$-tagged jet$)$
+ #Variable_7:
+ #           Name: DeltaRSubLeadingLeptonClosestBjet
+ #           Label_name: $\Delta R$(sub-leading lepton, closest $b$-tagged jet)
+ #Variable_8:
+ #           Name: eta_b
+ #           Label_name: $\eta ($b$-tagged jet)$
+# Variable_9:
+#            Name: eta_jet1
+#            Label_name: $\eta$ (leading jet)
+# Variable_10:
+#            Name: HvisMass
+#            Label_name: Visible mass (Higgs boson)
+# Variable_11:
+#            Name: lep_Higgs_eta
+#            Label_name: $\eta (\ell_{Higgs})$
+# Variable_12:
+#            Name: DeltaEtaSpectatorjetLeadingBjet
+#            Label_name: $\Delta\eta$(Spectator jet, leading $b$-tagged jet)
+# Variable_13:
+#            Name: lep_Higgs_pt
+#            Label_name: $p_{T}  (\ell_{Higgs})$
+ Variable_14:
+            Name: lep_top_higgs_mass
+            Label_name: $ m(\ell_{Higgs} + \ell_{top})$
+ Variable_15: 
+            Name: btagbin_jet1
+            Label_name: DL1R calibrated score of leading $b$-tagged jet
+ #Variable_16:
+ #           Name: m_mass_spectjet
+ #           Label_name: $m$(spectator jet)
+ #Variable_17:
+ #           Name: METOverHT #Igual es mala variable
+ #           Label_name: $E_{T}^{miss}/H_{T}$
+# Variable_18:
+#            Name: pt_lepHiggs_b
+#            Label_name: $p_{T}(\ell_{Higgs},$b$-tagged jet)$
+# Variable_19:
+#            Name: type_lep3
+#            Label_name: Type (lep 3)
+ #Variable_20:
+ #           Name: deltaR_lepHiggs_b  #May be very powerful tHq
+ #           Label_name: $\Delta R(\ell_{Higgs}, $b$-tagged jet)$
+ Variable_21:
+            Name: m_met
+            Label_name: $E_{T}^{miss}$
+ Variable_22:
+            Name: pt_b
+            Label_name: $p_{T}$($b$-tagged jet)
+ Variable_23:
+            Name: m_lepHiggs_b
+            Label_name: $ m(\ell_{Higgs} + $b$-tagged jet)$
+ Variable_24:
+            Name: TvisMass
+            Label_name: Visible mass (top quark)
+# Variable_25:
+#            Name: deltaR_lepTop_lepHiggs # Nombo
+#            Label_name: $\Delta R(\ell_{top},\ell_{Higgs})$
+# Variable_26:
+#            Name: deltaR_lepTop_spectatorJet
+#            Label_name: $\Delta R(\ell_{top}$, spectator jet)
+ Variable_27:
+            Name: pt_jet3
+            Label_name: $p_{T}$(jet 3)
+ Variable_28:
+            Name: deltaEta_lepTop_lepHiggs
+            Label_name: $\Delta \eta (\ell_{top},\ell_{Higgs})$
+ Variable_29:
+            Name: btagbin_jet2
+            Label_name: DL1R calibrated score of subleading $b$-tagged jet
+
+
+
+ShortMVAtWH:
+ Variable_1:
+            Name: m_met
+            Label_name: $E_{T}^{miss}$
+ Variable_2:
+            Name: had_tau_pt
+            Label_name: $p_{T}(\tau_{had})$
+ Variable_3:
+            Name: HT_all
+            Label_name: $H_{T}^{all}$
+ Variable_4:
+            Name: lep_top_higgs_mass
+            Label_name: $ m(\ell_{Higgs} + \ell_{top})$
+ Variable_5:
+            Name: DeltaRLeadingLjetLeadingBjet  # Removed because of correlations
+            Label_name: $\Delta R$(leading non-$b$-tagged jet, leading $b$-tagged jet)
+ Variable_6:
+            Name: deltaR_lepHiggs_tau
+            Label_name: $\Delta R(\ell_{Higgs},\tau_{had})$
+ Variable_7:
+            Name: DeltaRMin
+            Label_name: $\Delta R_{min}(\ell_{Higgs}, \ell_{top}, \tau_{had})$
+ Variable_6:
+            Name: had_tau_eta
+            Label_name: $\eta(\tau_{had})$
+ Variable_7:
+            Name: pt_jet3
+            Label_name: $p_{T}$(jet 3)
+ Variable_8:
+            Name: deltaR_lepTop_tau
+            Label_name: $\Delta R(\ell_{Higgs}, \tau_{had})$
+ Variable_9:
+            Name: eta_lep2
+            Label_name: $\eta$($\ell_{2}$)
+# Variable_10:
+#            Name: deltaEta_lepHiggs_leadingLjet
+#            Label_name: $\Delta\eta(\ell_{Higgs}$, leading non-$b$-tagged jet)
+ Variable_11:
+            Name: m_nCentraljets
+            Label_name: Multiplicity(central jets)
+# Variable_12:
+#            Name: DeltaEtaSubLeadingLeptonClosestLjet
+#            Label_name: $\Delta\eta(\ell_{2}$, closest non-$b$-tagged jet)
+# Variable_13:
+#            Name: pt_lepHiggs_b
+#            Label_name: $p_{T}(\ell_{Higgs}, b)$
+# Variable_14:
+#            Name: pt_lepTop_tau
+#            Label_name: $p_{T}(\ell_{Top}, \tau)$
+ Variable_15:
+            Name: type_lep3
+            Label_name: Type(sub-sub-leading lepton)
+# Variable_16:
+#            Name: PtLeptonMin
+#            Label_name: $p_{T}^{min}$(lepton)
+# Variable_17:
+#            Name: m_njets
+#            Label_name: Multiplicity(jets)
+
+
+
+
+
+ShortMVAtZq:
+ Variable_1:
+            Name: m_inv_bjet_spectjet
+ Variable_2:
+            Name: pt_jf
+ Variable_3:
+            Name: had_tau_pt
+ Variable_4:
+            Name: DeltaRLeadingLjetLeadingBjet
+ Variable_5:
+            Name: HT_all
+ Variable_6:
+            Name: btagbin_jet1
+ Variable_7:
+            Name: pt_jet2
+ Variable_8:
+            Name: LeptonChargeMult
+ Variable_9:
+            Name: deltaEta_lepTop_lepHiggs
+ Variable_10:
+            Name: DeltaEtaForwardLjetClosestLepton
+ Variable_11:
+            Name: DeltaRSpectatorjetLeadingBjet
+ Variable_12:
+            Name: m_met
+ Variable_13:
+            Name: deltaEta_lepHiggs_tau
+ Variable_14:
+            Name: deltaEta_lepTop_b
+ Variable_15:
+            Name: m_njets
+ Variable_16:
+            Name: pt_jet3
+ Variable_17:
+            Name: type_lep3
+ Variable_18:
+            Name: deltaR_lepTop_lepHiggs
+ Variable_19:
+            Name: TvisMass
+ Variable_20:
+            Name: HT
+# Variable_21:
+#            Name: deltaEta_lepHiggs_b
+# Variable_21:
+#            Name: deltaR_lepHiggs_b
+ Variable_1g:
+            Name: m_Hvis_opt1
+ Variable_1h:
+            Name: m_Hvis_opt2
+
+
+ShortMVAttbar_NewNtuples:
+ Variable_2:
+            Name: lep_top_higgs_mass
+            Label_name: $ m(\ell_{Higgs} + \ell_{top})$
+ Variable_2:
+            Name: OSSF_LepHad
+            Label_name: Same flavour leptons
+ Variable_4:
+            Name: m_met
+            Label_name: $E_{T}^{miss}$
+ Variable_7:
+            Name: pt_b
+            Label_name: $p_{T}$(leading $b$-tagged jet)
+ Variable_8:
+            Name: TvisMass
+            Label_name: Visible mass (top quark)
+ Variable_9:
+            Name: m_lepHiggs_b
+            Label_name: m($\ell_{Higgs},b$)
+ Variable_10:
+            Name: HT_all
+            Label_name: $H_{T}$
+ Variable_12:
+            Name: btagbin_jet2
+            Label_name: DL1R calibrated score of $b$-jet 2
+ Variable_13:
+            Name: btagbin_jet1
+            Label_name: DL1R calibrated score of $b$-jet 1
+ Variable_20:
+            Name: deltaR_lepTop_lepHiggs
+            Label_name: $\Delta R(\ell_{top},\ell_{Higgs})$
+ #Variable_21:
+ #           Name: pt_jet2
+ #           Label_name: $p_{T}$(sub-leading tagged jet)
+ Variable_22:
+            Name: had_tau_pt
+            Label_name: $p_{T}(\tau_{had})$
+ Variable_23:
+            Name: deltaEta_lepTop_lepHiggs
+            Label_name: $\Delta \eta (\ell_{top},\ell_{Higgs})$
+
+
+LeptonsCut:
+ Variable_1:
+            Name: pt_lep1
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+            Extra: abs
+ Variable_2:
+            Name: pt_lep2
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+ Variable_3:
+            Name: pt_lep3
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+
+ Variable_4:
+            Name: eta_lep1
+            Max: 2.5
+            Min: 0.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_5:
+            Name: eta_lep2
+            Max: 2.5
+            Min: 0.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_6:
+            Name: eta_lep3
+            Max: 2.5
+            Min: 0.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_7:
+            Name: phi_lep1
+            Max: 3.15
+            Min: 2.0
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_8:
+            Name: phi_lep2
+            Max: 3.15
+            Min: 2.0
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_9:
+            Name: phi_lep3
+            Max: 3.15
+            Min: 2.0
+            Seed: 2
+            Option: lower
+            Extra: abs
+LeptonsJetsCut:
+ Variable_1:
+            Name: pt_lep1
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+            Extra: abs
+ Variable_2:
+            Name: pt_lep2
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+ Variable_3:
+            Name: pt_lep3
+            Max: 50
+            Min: 20
+            Seed: 2
+            Option: higher
+
+ Variable_4:
+            Name: eta_lep1
+            Max: 6
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_5:
+            Name: eta_lep2
+            Max: 6
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_6:
+            Name: eta_lep3
+            Max: 6
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_7:
+            Name: pt_jet1
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+ Variable_8:
+            Name: pt_jet2
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+ Variable_9:
+            Name: pt_jet3
+            Max: 75
+            Min: 25
+            Seed: 2
+            Option: higher
+# Variable_10:
+#            Name: E_jet1
+#            Max: 800
+#            Min: 10
+#            Seed: 2
+#            Option: lower
+# Variable_11:
+#            Name: E_jet2
+#            Max: 500
+#            Min: 10
+#            Seed: 2
+#            Option: lower
+# Variable_12:
+#            Name: E_jet3
+#            Max: 500
+#            Min: 10
+#            Seed: 2
+#            Option: lower            
+ Variable_13:
+            Name: eta_jet1
+            Max: 4.5
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_14:
+            Name: eta_jet2
+            Max: 4.5
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+ Variable_15:
+            Name: eta_jet3
+            Max: 4.5
+            Min: 1.5
+            Seed: 2
+            Option: lower
+            Extra: abs
+
+Options:
+ higher: '>'
+ lower: <
